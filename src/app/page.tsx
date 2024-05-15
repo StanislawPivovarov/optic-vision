@@ -167,6 +167,7 @@ export default function Home() {
               defaultActiveKey="2"
               centered
               size="large"
+              //@ts-ignore
               items={dataForTabs.map((data) => {
                 return {
                   label: `${data.name}`,
